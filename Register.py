@@ -27,12 +27,12 @@ birthdayYear.select_by_value("1990")
 #Write to the username field.
 username_field = driver.find_element_by_id("signup-username")
 username_field.clear()
-username_field.send_keys("AspectNetwork01")
+username_field.send_keys("Atul13456")
 
 #Write to the password field.
 password_field = driver.find_element_by_id("signup-password")
 password_field.clear()
-password_field.send_keys("AspectNetwork01AspectNetwork01")
+password_field.send_keys("Atul1345")
 
 #Click the female gender button.
 gender_button = driver.find_element_by_id("FemaleButton")
